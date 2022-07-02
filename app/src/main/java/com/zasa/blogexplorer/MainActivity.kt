@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.zasa.blogexplorer.databinding.ActivityMainBinding
 
 private const val TAG = "MainActivity"
+
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: MainViewModel
     private lateinit var binding: ActivityMainBinding
@@ -19,5 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding.button.setOnClickListener {
             viewModel.getPosts()
         }
+
     }
+
 }
