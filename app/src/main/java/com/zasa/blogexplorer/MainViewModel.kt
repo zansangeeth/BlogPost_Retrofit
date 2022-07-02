@@ -1,4 +1,4 @@
-package com.rkpandey.blogexplorer
+package com.zasa.blogexplorer
 
 import androidx.lifecycle.ViewModel
 

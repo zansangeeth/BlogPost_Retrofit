@@ -1,9 +1,9 @@
-package com.rkpandey.blogexplorer
+package com.zasa.blogexplorer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import com.rkpandey.blogexplorer.databinding.ActivityMainBinding
+import com.zasa.blogexplorer.databinding.ActivityMainBinding
 
 private const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
